@@ -75,7 +75,7 @@ function App() {
           <Intro />
           <Project />
           <Timeline />
-          <Contact />
+          {/* <Contact /> */}
           <Footer />
         </div>
       </div>
