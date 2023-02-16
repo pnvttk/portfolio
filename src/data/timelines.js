@@ -1,20 +1,12 @@
-export default [
-    {
-        year: 'Today',
-        title: 'test1',
-        duration: '5 year',
-        detail: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias sint, asperiores consectetur dolores, minima, quis dolorum facilis laudantium dicta voluptates doloribus assumenda ad nesciunt vitae est consequatur quidem rem aliquid.'
-    },
-    {
-        year: 'Today',
-        title: 'test1',
-        duration: '5 year',
-        detail: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias sint, asperiores consectetur dolores, minima, quis dolorum facilis laudantium dicta voluptates doloribus assumenda ad nesciunt vitae est consequatur quidem rem aliquid.'
-    },
-    {
-        year: 'Today',
-        title: 'test1',
-        duration: '5 year',
-        detail: 'Lorem ipsum dolor, sit amet consectetur adipisicing elit. Alias sint, asperiores consectetur dolores, minima, quis dolorum facilis laudantium dicta voluptates doloribus assumenda ad nesciunt vitae est consequatur quidem rem aliquid.'
-    },
-]
+const getTimeline = async () => {
+    const url = "https://pnvttk.github.io/api/portfolio/timelines.json";
+    try {
+        const response = await fetch(url);
+        const timelines = await response.json();
+        return timelines
+    } catch (error) {
+        console.log("error", error);
+    }
+};
+
+export default await getTimeline()

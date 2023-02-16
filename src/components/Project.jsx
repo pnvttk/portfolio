@@ -1,5 +1,5 @@
 import React from "react";
-import projects from '../data/projects'
+import projects from "../data/projects";
 import ProjectItem from "./ProjectItem";
 import Title from "./Title";
 
@@ -10,8 +10,8 @@ function Project() {
             <div className="flex flex-col md:flex-row items-center justify-center">
                 <div className="grid gird-cols-1
             md:grid-cols-2 lg:grid-cols-3 gap-4">
-                    {projects.map(project => (
-                        <ProjectItem
+                    {projects.map((project, index) => (
+                        <ProjectItem key={index}
                             imgUrl={project.imgUrl}
                             title={project.title}
                             stack={project.stack}
