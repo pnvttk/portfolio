@@ -1,12 +1,68 @@
-const getProject = async () => {
-    const url = "https://pnvttk.github.io/api/portfolio/projects.json";
-    try {
-        const response = await fetch(url);
-        const projects = await response.json();
-        return projects
-    } catch (error) {
-        console.log("error", error);
-    }
-};
+export default [
+    {
+        title: 'SCG CARPOOL',
+        imgUrl: '/assets/projects_img/scg_carpool.png',
+        desc: 'A project about vehicle reservation web application. I take a part as Backend and Full-stack developer',
+        stack: ['linux', 'apache', 'mysql', 'php', 'phpunit', 'javascript', 'docker', 'cypress', 'mvc', 'hostinger'],
+        note: "Confidential projects.",
+        link: []
 
-export default await getProject()
+    },
+    {
+        title: 'Minimal Portfolio',
+        imgUrl: '/assets/projects_img/minimal_portfolio.png',
+        desc: 'React Tailwind CSS Vite minimal website with theme like dark mode. Deploy on Vercel with Freenom domain and cloudfare for DNS management.',
+        stack: ['reactjs', 'tailwindcss', 'vitejs', 'vercel', 'cloudfare', 'freenom'],
+        note: "",
+        link: [
+            { Github: 'https://github.com/pnvttk/portfolio' },
+            { "Website": 'https://www.pnvttk.tk/' }
+        ]
+    },
+    {
+        title: 'Vehicle Characterization on Road with AI',
+        imgUrl: '/assets/projects_img/Vehicle_Characterization_on_Road_with_AI.png',
+        desc: 'Plate Detection System with Artificail Intelligence.',
+        stack: ['python', 'flask', 'yolov5', 'easyOCR', 'artificial-intelligence'],
+        note: "Didn't have demo deploy because of model and project files are too large.",
+        link: [
+            { Github: 'https://github.com/pnvttk/Vehicle_Characterization_on_Road_with_AI' },
+            { "Video Demo": 'https://www.youtube.com/watch?v=NaVDRdXCfqc' }
+        ]
+    },
+    {
+        title: 'Angular OCR Translation',
+        desc: 'Web application build with Angular, Google cloud vision and translate.',
+        imgUrl: '/assets/projects_img/angular_ocr_translation.png',
+        stack: ['angular', 'vercel', 'heroku', 'google-cloud-vision-api', 'goole-translate-api'],
+        note: 'Currently, down because Google Cloud transaction declined.',
+        link: [
+            { Github: 'https://github.com/pnvttk/Angular-OCR-Translation' },
+            { Vercel: 'https://angular-ocr-translation.vercel.app/' }
+        ]
+    },
+    {
+        title: 'MEAN Stack Video Platform',
+        imgUrl: '/assets/projects_img/mean_video_platform.png',
+        desc: 'An video platform CRUD build with MEAN stack and JWT login authentication.',
+        stack: ['mongodb', 'express', 'nodejs', 'angular', 'vercel', 'jwt-authentication'],
+        note: 'Demo not avaliable anymore because of my outdate database.',
+        link: [
+            { Github: 'https://github.com/pnvttk/Video-Platform-with-MEAN-Stack' },
+            { Vercel: 'https://video-platform-with-mean-stack.vercel.app/' },
+            { "Video Demo": 'https://drive.google.com/file/d/1IO5YCmWeStAAH2Y1Asr7w_W6medVn2Yf/view' },
+        ]
+
+    },
+    {
+        title: 'Line Covid Chatbot',
+        imgUrl: '/assets/projects_img/line_covid_chatbot.jpg',
+        desc: 'line chatbot with Dialog Flow, Ngrok and Flask. More info about this project is in the blog below.',
+        stack: ['python', 'flask', 'ngrok', 'dialogflow', 'line', 'chatbots'],
+        note: "Demo not avaliable.",
+        link: [
+            { Github: 'https://github.com/pnvttk/Line-Covid-Chatbot' },
+            { Blog: 'https://www.paoschools.com/python-line-chatbot/' }
+        ]
+    },
+]

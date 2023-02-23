@@ -14,7 +14,9 @@ function Project() {
                         <ProjectItem key={index}
                             imgUrl={project.imgUrl}
                             title={project.title}
+                            desc={project.desc}
                             stack={project.stack}
+                            note={project.note}
                             link={project.link}
                         />
                     ))}
