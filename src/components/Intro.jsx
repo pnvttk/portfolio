@@ -4,7 +4,7 @@ function Intro() {
     return (
         <div className="flex items-center justify-center flex-col text-center pt-20 pb-6">
             <div className="w-6/12 sm:w-4/12 px-4">
-                <img src="public/assets/profile_img.jpg" className="shadow-lg rounded-full max-w-full h-auto align-middle border-none" />
+                <img src="/assets/profile_img.jpg" className="shadow-lg rounded-full max-w-full h-auto align-middle border-none" />
             </div>
             <h1 className="mt-10 text-4xl md:text-7x
             dark:text-stone-100
