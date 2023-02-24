@@ -22,7 +22,7 @@ export default [
     {
         title: 'Vehicle Characterization on Road with AI',
         imgUrl: '/assets/projects_img/Vehicle_Characterization_on_Road_with_AI.png',
-        desc: 'Plate Detection System with Artificail Intelligence.',
+        desc: 'Vehicle and plate detection web application with Yolov5, EasyOCR and Flask.',
         stack: ['python', 'flask', 'yolov5', 'easyOCR', 'artificial-intelligence'],
         note: "Didn't have demo deploy because of model and project files are too large.",
         link: [
