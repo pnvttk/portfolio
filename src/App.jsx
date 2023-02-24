@@ -4,6 +4,8 @@ import Project from './components/Project'
 import Timeline from './components/Timeline'
 import Contact from './components/Contact'
 import Footer from './components/Footer'
+import { Analytics } from '@vercel/analytics/react';
+
 function App() {
 
   const [theme, setTheme] = useState(null)
@@ -77,6 +79,7 @@ function App() {
           <Timeline />
           {/* <Contact /> */}
           <Footer />
+          <Analytics />
         </div>
       </div>
     </>
