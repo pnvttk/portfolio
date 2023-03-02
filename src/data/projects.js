@@ -24,7 +24,7 @@ export default [
         imgUrl: '/assets/projects_img/Vehicle_Characterization_on_Road_with_AI.png',
         desc: 'Vehicle and plate detection web application with Yolov5, EasyOCR and Flask.',
         stack: ['python', 'flask', 'yolov5', 'easyOCR', 'artificial-intelligence'],
-        note: "Didn't have demo deploy because of model and project files are too large.",
+        note: "",
         link: [
             { Github: 'https://github.com/pnvttk/Vehicle_Characterization_on_Road_with_AI' },
             { "Video Demo": 'https://www.youtube.com/watch?v=NaVDRdXCfqc' }
@@ -35,7 +35,7 @@ export default [
         desc: 'Web application build with Angular, Google cloud vision and translate.',
         imgUrl: '/assets/projects_img/angular_ocr_translation.png',
         stack: ['angular', 'vercel', 'heroku', 'google-cloud-vision-api', 'goole-translate-api'],
-        note: 'Currently, down because Google Cloud transaction declined.',
+        note: '',
         link: [
             { Github: 'https://github.com/pnvttk/Angular-OCR-Translation' },
             { Vercel: 'https://angular-ocr-translation.vercel.app/' }
@@ -46,7 +46,7 @@ export default [
         imgUrl: '/assets/projects_img/mean_video_platform.png',
         desc: 'An video platform CRUD build with MEAN stack and JWT login authentication.',
         stack: ['mongodb', 'express', 'nodejs', 'angular', 'vercel', 'jwt-authentication'],
-        note: 'Demo not avaliable anymore because of my outdate database.',
+        note: '',
         link: [
             { Github: 'https://github.com/pnvttk/Video-Platform-with-MEAN-Stack' },
             { Vercel: 'https://video-platform-with-mean-stack.vercel.app/' },
@@ -59,7 +59,7 @@ export default [
         imgUrl: '/assets/projects_img/line_covid_chatbot.jpg',
         desc: 'line chatbot with Dialog Flow, Ngrok and Flask. More info about this project is in the blog below.',
         stack: ['python', 'flask', 'ngrok', 'dialogflow', 'line', 'chatbots'],
-        note: "Demo not avaliable.",
+        note: "",
         link: [
             { Github: 'https://github.com/pnvttk/Line-Covid-Chatbot' },
             { Blog: 'https://www.paoschools.com/python-line-chatbot/' }
