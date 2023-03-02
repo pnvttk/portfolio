@@ -15,8 +15,8 @@ export default [
         stack: ['reactjs', 'tailwindcss', 'vitejs', 'vercel', 'cloudfare', 'freenom'],
         note: "",
         link: [
-            { Github: 'https://github.com/pnvttk/portfolio' },
-            { "Website": 'https://www.pnvttk.tk/' }
+            { "Website": 'https://www.pnvttk.tk/' },
+            { Github: 'https://github.com/pnvttk/portfolio' }
         ]
     },
     {
@@ -26,8 +26,8 @@ export default [
         stack: ['python', 'flask', 'yolov5', 'easyOCR', 'artificial-intelligence'],
         note: "",
         link: [
-            { Github: 'https://github.com/pnvttk/Vehicle_Characterization_on_Road_with_AI' },
-            { "Video Demo": 'https://www.youtube.com/watch?v=NaVDRdXCfqc' }
+            { "Video Demo": 'https://www.youtube.com/watch?v=NaVDRdXCfqc' },
+            { Github: 'https://github.com/pnvttk/Vehicle_Characterization_on_Road_with_AI' }
         ]
     },
     {
@@ -37,8 +37,8 @@ export default [
         stack: ['angular', 'vercel', 'heroku', 'google-cloud-vision-api', 'goole-translate-api'],
         note: '',
         link: [
+            { Demo: 'https://angular-ocr-translation.vercel.app/' },
             { Github: 'https://github.com/pnvttk/Angular-OCR-Translation' },
-            { Vercel: 'https://angular-ocr-translation.vercel.app/' }
         ]
     },
     {
@@ -48,9 +48,9 @@ export default [
         stack: ['mongodb', 'express', 'nodejs', 'angular', 'vercel', 'jwt-authentication'],
         note: '',
         link: [
-            { Github: 'https://github.com/pnvttk/Video-Platform-with-MEAN-Stack' },
-            { Vercel: 'https://video-platform-with-mean-stack.vercel.app/' },
+            { Demo: 'https://video-platform-with-mean-stack.vercel.app/' },
             { "Video Demo": 'https://drive.google.com/file/d/1IO5YCmWeStAAH2Y1Asr7w_W6medVn2Yf/view' },
+            { Github: 'https://github.com/pnvttk/Video-Platform-with-MEAN-Stack' },
         ]
 
     },
@@ -61,8 +61,8 @@ export default [
         stack: ['python', 'flask', 'ngrok', 'dialogflow', 'line', 'chatbots'],
         note: "",
         link: [
+            { Blog: 'https://www.paoschools.com/python-line-chatbot/' },
             { Github: 'https://github.com/pnvttk/Line-Covid-Chatbot' },
-            { Blog: 'https://www.paoschools.com/python-line-chatbot/' }
         ]
     },
 ]
