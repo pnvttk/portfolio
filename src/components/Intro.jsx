@@ -77,8 +77,8 @@ function Intro() {
                 </div>
             </div>
             <p className="text-base md:text-xl dark:text-stone-200 mb-3 font-medium">About me</p>
-            <p className="text-base md:text-md  dark:text-stone-200 mb-3 font-medium ">Web Developer, Computer Engineer, Graphic Designer</p>
-            <p className="mt-2 text-md dark:text-stone-200 max-w-x1 mb-6 font-medium">A junior developer who has experience in web development in PHP, MySQL, Docker, JavaScript and have some projects with MEAN Stack and other language. Now I'm focusing to learns more about React and Next.js and I have interested in testing and security too.</p>
+            <p className="text-base md:text-md  dark:text-stone-200 mb-3 font-medium ">Web Developer and Computer Engineer</p>
+            <p className="mt-2 text-md dark:text-stone-200 max-w-x1 mb-6 font-medium">A junior developer who has experience in web development in PHP, JavaScript, SQL and have some projects with MEAN Stack and other language. Now I'm focusing to learns more about React and Node.js and I have interested in testing and security too.</p>
         </div>
     )
 }

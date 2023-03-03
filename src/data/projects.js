@@ -2,7 +2,7 @@ export default [
     {
         title: 'SCG CARPOOL',
         imgUrl: '/assets/projects_img/scg_carpool.png',
-        desc: 'A project about vehicle reservation web application. I take a part as Backend and Full-stack developer',
+        desc: 'A project about vehicle reservation web application. I take a part as backend and full-stack developer',
         stack: ['linux', 'apache', 'mysql', 'php', 'phpunit', 'javascript', 'docker', 'cypress', 'mvc', 'hostinger'],
         note: "Confidential projects.",
         link: []
@@ -11,7 +11,7 @@ export default [
     {
         title: 'Minimal Portfolio',
         imgUrl: '/assets/projects_img/minimal_portfolio.png',
-        desc: 'React Tailwind CSS Vite minimal website with theme like dark mode. Deploy on Vercel with Freenom domain and cloudfare for DNS management.',
+        desc: 'React, Tailwind CSS and Vite minimal website with theme like dark mode. Deploy on Vercel with Freenom domain and Cloudfare for DNS management.',
         stack: ['reactjs', 'tailwindcss', 'vitejs', 'vercel', 'cloudfare', 'freenom'],
         note: "",
         link: [
