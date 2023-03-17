@@ -44,7 +44,7 @@ export default [
     {
         title: 'MEAN Stack Video Platform',
         imgUrl: '/assets/projects_img/mean_video_platform.png',
-        desc: 'An video platform CRUD build with MEAN stack and JWT login authentication.',
+        desc: 'A video platform CRUD build with MEAN stack and JWT login authentication.',
         stack: ['mongodb', 'express', 'nodejs', 'angular', 'vercel', 'jwt-authentication'],
         note: '',
         link: [
@@ -57,7 +57,7 @@ export default [
     {
         title: 'Line Covid Chatbot',
         imgUrl: '/assets/projects_img/line_covid_chatbot.jpg',
-        desc: 'line chatbot with Dialog Flow, Ngrok and Flask. More info about this project is in the blog below.',
+        desc: 'Line chatbot with Dialog Flow, Ngrok and Flask. More info about this project is in the blog below.',
         stack: ['python', 'flask', 'ngrok', 'dialogflow', 'line', 'chatbots'],
         note: "",
         link: [
