@@ -10,7 +10,7 @@ export default [
     },
     {
         title: 'Minimal Portfolio',
-        imgUrl: '/assets/projects_img/minimal_portfolio.png',
+        // imgUrl: '/assets/projects_img/minimal_portfolio.png',
         desc: 'React, Tailwind CSS and Vite minimal website with theme like dark mode. Deploy on Vercel with Freenom domain and Cloudfare for DNS management.',
         stack: ['reactjs', 'tailwindcss', 'vitejs', 'vercel', 'cloudfare', 'freenom'],
         note: "",
