@@ -14,7 +14,7 @@ function Intro() {
             dark:text-stone-100
              mb-1 md:mb-3 font-bold"
       >
-        Pannavach Tratongkam
+        Pannavach T.
       </h1>
       <div className="mt-5 container max-w-screen-lg mx-auto mb-4">
         <div>
