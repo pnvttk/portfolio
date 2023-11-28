@@ -1,8 +1,8 @@
 export default [
   {
-    year: "April 2023 - June 2023",
+    year: "April 2023 - Present",
     title: "Software Engineer",
-    duration: "3 month (probation)",
+    // duration: "3 month (probation)",
     detail: "Do simple taks such as developed and debugged web backend components, including APIs and minor functions, using C#, React, ASP.NET, TypeScript, and JavaScript.",
   },
   {
