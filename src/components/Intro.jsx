@@ -87,14 +87,11 @@ function Intro() {
       <p className="text-base md:text-xl dark:text-stone-200 mb-3 font-medium">
         About me
       </p>
-      <p className="text-base md:text-md  dark:text-stone-200 mb-3 font-medium ">
+      {/* <p className="text-base md:text-md  dark:text-stone-200 mb-3 font-medium ">
         Web Developer and Software Engineer
-      </p>
+      </p> */}
       <p className="mt-2 text-md dark:text-stone-200 max-w-x1 mb-6 font-medium">
-        A junior developer who has experience in web development in PHP,
-        JavaScript, SQL and have some projects with MEAN Stack and other
-        language. Now I'm focusing to learns more about React, C# and ASP.NET
-        and I have interested in testing and security too.
+      I’m currently a Software Engineer at Sonar Innovation. Have experience in React TypeScript and C# .NET web development and a little of React Native.
       </p>
     </div>
   );
